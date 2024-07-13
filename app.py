@@ -29,14 +29,14 @@ def send_email(recipient):
         smtp_server = 'live.smtp.mailtrap.io'
         port = 2525
         username = 'api'
-        password = os.getenv('MAILTRAP_API_TOKEN', '12893f9acdc1bb3c34e0bdba1dce3cfc')
+        password = os.getenv('MAILTRAP_API_TOKEN', 'd8bd84313347bfe7e282ac18fbecafdc')
 
         msg = MIMEMultipart('alternative')
-        msg['Subject'] = "TASK 3 FOR HNG"
-        msg['From'] = "HNG MASONRY <mailtrap@demomailtrap.com>"
+        msg['Subject'] = "TASK 3 FOR HNG DON LAND"
+        msg['From'] = "HELLO, DEAREST MENTOR <mailtrap@demomailtrap.com>"
         msg['To'] = recipient
 
-        text = "Just Thank God say this email send"
+        text = "Omoooo, we thank God o"
         html = """
         <!doctype html>
         <html>
