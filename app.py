@@ -33,7 +33,7 @@ def send_email(recipient):
 
         msg = MIMEMultipart('alternative')
         msg['Subject'] = "TASK 3 FOR HNG DON LAND"
-        msg['From'] = "HELLO, DEAREST MENTOR <mailtrap@demomailtrap.com>"
+        msg['From'] = "HELLO DEAREST MENTOR <mailtrap@demomailtrap.com>"
         msg['To'] = recipient
 
         text = "Omoooo, we thank God o"
